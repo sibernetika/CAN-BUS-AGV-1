@@ -18,8 +18,8 @@ in order to achieve the final goal, it is needed to learn further about CAN BUS 
 1. Establish CAN-BUS communication using Arduino (1 master and some slave)
    - [x] Send some command/string "hello world" to another arduino using CAN-BUS
    - [x] Send some sensor variable (replaced with potentiometer) from an arduino to another arduino using CAN-BUS
-   - [ ] Send some feedback from the master to respond with the sensor value ("too high/another") using CAN-BUS so theres established two way communication
-   - [ ] Using three Arduino to communicate with 1 master and 2 slave, master is the decision maker, give different decision to the slave (here we get the priority/id concept in the CAN-BUS protocol)
+   - [x] Send some feedback from the master to respond with the sensor value ("too high/another") using CAN-BUS so theres established two way communication
+   - [x] Using three Arduino to communicate with 1 master and 2 slave, master is the decision maker, give different decision to the slave (here we get the priority/id concept in the CAN-BUS protocol)
    - [ ] Integrate the result of the master to the python or C++ code, maybe including some calculation that sent via serial
 2. Integrate the communication via ROS system 
    - [x] install the ROS system to Linux (on the office computer) --> ROS Melodic
